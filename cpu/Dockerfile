@@ -10,8 +10,8 @@ RUN apt-get update && \
 		libgl1-mesa-dev \
 		libglu1-mesa \
 		libxi6 \
-		libxrender1 
-      blender && \
+		libxrender1 \
+      		blender && \
 	apt-get -y autoremove && \
 	rm -rf /var/lib/apt/lists/*
    
